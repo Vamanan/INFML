@@ -1,3 +1,5 @@
+import itertools
+import math
 
 original_data=[]
 with open('mushroom_mine.train') as f:
@@ -25,6 +27,9 @@ for l in original_data:
   m.append(mapp[i][l[i]])
  mapped_data.append(m)
 
+print 'SUBTASK 1'
+print
+
 def mean(x):
  
  summ=sum([l[x] for l in mapped_data])
@@ -51,6 +56,8 @@ def var(x):
 
 '''for l in mapped_data:
  print '\t'.join([str(x) for x in l])'''
+
+
  
 sub1_result={}
 for i in range(1,len(mapped_data[0])):
@@ -65,7 +72,57 @@ for i in range(1,len(mapped_data[0])):
 sorted_keys=sorted(sub1_result,key=sub1_result.get, reverse=True)
 
 for key in sorted_keys[:5]:
- print str(key)#+' '+str(sub1_result[key])
+ print str(key)+' '+str(sub1_result[key])
 
+print
+print 'SUBTASK 2'
+print
 
 #subtask2
+#figure out unique feature values for each feature
+unique={}
+for l in original_data:
+ for i in range(len(l)):
+  if i not in unique:
+   unique[i]=[l[i]]
+  else:
+   if l[i] not in unique[i]:
+    unique[i].append(l[i])
+
+#print unique
+
+def score(x,y):
+ pairs=itertools.product(unique[x],unique[y])
+ score=0
+ for p in pairs:
+  conj=0
+  px=0
+  py=0
+  for l in original_data:
+   if l[x]==p[0] and l[y]==p[1]:
+    conj+=1
+   if l[x]==p[0]:
+    px+=1
+   if l[y]==p[1]:
+    py+=1
+  pconj=conj/float(len(original_data))
+  px=px/float(len(original_data))
+  py=py/float(len(original_data))
+  '''print x
+  print px
+  print py
+  print pconj'''
+  if pconj!=0:
+   score+=pconj*math.log(pconj/float(px*py))
+ return score
+
+sub2_result={}
+#print len(original_data[0])
+for i in range(1, len(original_data[0])):
+ sub2_result[i]=score(i,0)
+
+sorted_keys=sorted(sub2_result,key=sub2_result.get,reverse=True)
+for key in sorted_keys[:5]:
+ print str(key)+' '+str(sub2_result[key])
+
+ 
