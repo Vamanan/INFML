@@ -1,0 +1,8 @@
+The accuracy of the Adaboost algorithm for 10 and 20 iterations is very high.
+With 10 iterations, accuracy=99.37%
+With 20 iterations, accuracy=99.78%
+
+For 20 iterations, the performance is slightly higher becasue of the contributions of the 10 additional decision stumps created.
+
+We observe that the weight of the first two decision stumps far outweigh the weights of the other decision stumps. Hence it is likely that the classification of this ensemble method is dominated by that of the first two decision stumps. 
+

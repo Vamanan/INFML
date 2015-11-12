@@ -1,0 +1,82 @@
+Running SVM-Light via cross validation on DogsVsCats.train by using 11250 training items and 1250 test items (Total number of cross-validation cycles: 10
+------------------------------------------
+Cross-validation cycle: 1
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9481 support vectors read)
+Accuracy on test set: 64.40% (805 correct, 445 incorrect, 1250 total)
+Precision/recall on test set: 67.72%/55.04%
+------------------------------------------
+Cross-validation cycle: 2
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9506 support vectors read)
+Accuracy on test set: 63.52% (794 correct, 456 incorrect, 1250 total)
+Precision/recall on test set: 67.32%/54.11%
+------------------------------------------
+Cross-validation cycle: 3
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9498 support vectors read)
+Accuracy on test set: 63.76% (797 correct, 453 incorrect, 1250 total)
+Precision/recall on test set: 66.47%/54.82%
+------------------------------------------
+Cross-validation cycle: 4
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9478 support vectors read)
+Accuracy on test set: 61.04% (763 correct, 487 incorrect, 1250 total)
+Precision/recall on test set: 62.64%/54.72%
+------------------------------------------
+Cross-validation cycle: 5
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9499 support vectors read)
+Accuracy on test set: 63.04% (788 correct, 462 incorrect, 1250 total)
+Precision/recall on test set: 66.98%/55.07%
+------------------------------------------
+Cross-validation cycle: 6
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9487 support vectors read)
+Accuracy on test set: 61.36% (767 correct, 483 incorrect, 1250 total)
+Precision/recall on test set: 60.56%/57.05%
+------------------------------------------
+Cross-validation cycle: 7
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9474 support vectors read)
+Accuracy on test set: 61.68% (771 correct, 479 incorrect, 1250 total)
+Precision/recall on test set: 66.67%/53.29%
+------------------------------------------
+Cross-validation cycle: 8
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9444 support vectors read)
+Accuracy on test set: 60.16% (752 correct, 498 incorrect, 1250 total)
+Precision/recall on test set: 62.14%/54.27%
+------------------------------------------
+Cross-validation cycle: 9
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9467 support vectors read)
+Accuracy on test set: 61.92% (774 correct, 476 incorrect, 1250 total)
+Precision/recall on test set: 64.64%/55.28%
+------------------------------------------
+Cross-validation cycle: 10
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9496 support vectors read)
+Accuracy on test set: 63.84% (798 correct, 452 incorrect, 1250 total)
+Precision/recall on test set: 66.73%/55.43%
+Done.

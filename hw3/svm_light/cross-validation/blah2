@@ -1,0 +1,13 @@
+Running SVM-Light via cross validation on DogsVsCats.train by using 11250 training items and 1250 test items (Total number of cross-validation cycles: 1
+------------------------------------------
+Cross-validation cycle: 1
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9471 support vectors read)
+Accuracy on test set: 62.00% (775 correct, 475 incorrect, 1250 total)
+Precision/recall on test set: 65.33%/53.70%
+
+linear SVM with default parameters
+Accuracy on test set: 62.00% (775 correct, 475 incorrect, 1250 total)
+Done.

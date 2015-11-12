@@ -1,0 +1,112 @@
+Running SVM-Light via cross validation on DogsVsCats.train by using 11250 training items and 1250 test items (Total number of cross-validation cycles: 10
+------------------------------------------
+Cross-validation cycle: 1
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9465 support vectors read)
+Accuracy on test set: 61.52% (769 correct, 481 incorrect, 1250 total)
+Precision/recall on test set: 64.06%/52.48%
+
+linear SVM with default parameters
+Accuracy on test set: 61.52% (769 correct, 481 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 2
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9438 support vectors read)
+Accuracy on test set: 58.96% (737 correct, 513 incorrect, 1250 total)
+Precision/recall on test set: 60.44%/53.03%
+
+linear SVM with default parameters
+Accuracy on test set: 58.96% (737 correct, 513 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 3
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9498 support vectors read)
+Accuracy on test set: 61.76% (772 correct, 478 incorrect, 1250 total)
+Precision/recall on test set: 60.28%/57.24%
+
+linear SVM with default parameters
+Accuracy on test set: 61.76% (772 correct, 478 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 4
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9491 support vectors read)
+Accuracy on test set: 63.76% (797 correct, 453 incorrect, 1250 total)
+Precision/recall on test set: 66.73%/53.95%
+
+linear SVM with default parameters
+Accuracy on test set: 63.76% (797 correct, 453 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 5
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9483 support vectors read)
+Accuracy on test set: 62.00% (775 correct, 475 incorrect, 1250 total)
+Precision/recall on test set: 63.74%/54.82%
+
+linear SVM with default parameters
+Accuracy on test set: 62.00% (775 correct, 475 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 6
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9476 support vectors read)
+Accuracy on test set: 62.24% (778 correct, 472 incorrect, 1250 total)
+Precision/recall on test set: 67.31%/53.68%
+
+linear SVM with default parameters
+Accuracy on test set: 62.24% (778 correct, 472 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 7
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9458 support vectors read)
+Accuracy on test set: 62.64% (783 correct, 467 incorrect, 1250 total)
+Precision/recall on test set: 59.39%/57.62%
+
+linear SVM with default parameters
+Accuracy on test set: 62.64% (783 correct, 467 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 8
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9509 support vectors read)
+Accuracy on test set: 63.44% (793 correct, 457 incorrect, 1250 total)
+Precision/recall on test set: 64.19%/56.72%
+
+linear SVM with default parameters
+Accuracy on test set: 63.44% (793 correct, 457 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 9
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9482 support vectors read)
+Accuracy on test set: 61.20% (765 correct, 485 incorrect, 1250 total)
+Precision/recall on test set: 64.71%/54.57%
+
+linear SVM with default parameters
+Accuracy on test set: 61.20% (765 correct, 485 incorrect, 1250 total)
+------------------------------------------
+Cross-validation cycle: 10
+
+Polynomial SVM with default parameters
+order: 5
+Reading model...OK. (9523 support vectors read)
+Accuracy on test set: 65.28% (816 correct, 434 incorrect, 1250 total)
+Precision/recall on test set: 67.36%/57.54%
+
+linear SVM with default parameters
+Accuracy on test set: 65.28% (816 correct, 434 incorrect, 1250 total)
+Done.

@@ -1,0 +1,72 @@
+Running SVM-Light via cross validation on DogsVsCats.train by using 11250 training items and 1250 test items (Total number of cross-validation cycles: 10
+------------------------------------------
+Cross-validation cycle: 1
+
+linear SVM with default parameters
+Reading model...OK. (9671 support vectors read)
+Accuracy on test set: 60.16% (752 correct, 498 incorrect, 1250 total)
+Precision/recall on test set: 59.91%/44.08%
+------------------------------------------
+Cross-validation cycle: 2
+
+linear SVM with default parameters
+Reading model...OK. (9685 support vectors read)
+Accuracy on test set: 60.56% (757 correct, 493 incorrect, 1250 total)
+Precision/recall on test set: 65.45%/45.79%
+------------------------------------------
+Cross-validation cycle: 3
+
+linear SVM with default parameters
+Reading model...OK. (9654 support vectors read)
+Accuracy on test set: 58.32% (729 correct, 521 incorrect, 1250 total)
+Precision/recall on test set: 60.47%/42.55%
+------------------------------------------
+Cross-validation cycle: 4
+
+linear SVM with default parameters
+Reading model...OK. (9677 support vectors read)
+Accuracy on test set: 61.28% (766 correct, 484 incorrect, 1250 total)
+Precision/recall on test set: 66.51%/45.69%
+------------------------------------------
+Cross-validation cycle: 5
+
+linear SVM with default parameters
+Reading model...OK. (9650 support vectors read)
+Accuracy on test set: 58.48% (731 correct, 519 incorrect, 1250 total)
+Precision/recall on test set: 58.97%/42.45%
+------------------------------------------
+Cross-validation cycle: 6
+
+linear SVM with default parameters
+Reading model...OK. (9606 support vectors read)
+Accuracy on test set: 58.64% (733 correct, 517 incorrect, 1250 total)
+Precision/recall on test set: 63.28%/43.35%
+------------------------------------------
+Cross-validation cycle: 7
+
+linear SVM with default parameters
+Reading model...OK. (9709 support vectors read)
+Accuracy on test set: 61.76% (772 correct, 478 incorrect, 1250 total)
+Precision/recall on test set: 63.93%/48.76%
+------------------------------------------
+Cross-validation cycle: 8
+
+linear SVM with default parameters
+Reading model...OK. (9675 support vectors read)
+Accuracy on test set: 62.56% (782 correct, 468 incorrect, 1250 total)
+Precision/recall on test set: 64.69%/46.11%
+------------------------------------------
+Cross-validation cycle: 9
+
+linear SVM with default parameters
+Reading model...OK. (9642 support vectors read)
+Accuracy on test set: 58.64% (733 correct, 517 incorrect, 1250 total)
+Precision/recall on test set: 64.62%/42.75%
+------------------------------------------
+Cross-validation cycle: 10
+
+linear SVM with default parameters
+Reading model...OK. (9669 support vectors read)
+Accuracy on test set: 59.04% (738 correct, 512 incorrect, 1250 total)
+Precision/recall on test set: 60.73%/46.24%
+Done.
